@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.screenWrapper {
+    width: 100%;
+    /* border: 1px solid gray; */
+}
+
+#feature-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#feature-div {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+#thumbnails-container {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.filterWrapper {
+    width: 100%;
+}
+
+#buttons-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#dropdown-container {
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.filter-button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

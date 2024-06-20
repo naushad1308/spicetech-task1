@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Filter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="screenWrapper">
+            <div id="feature-container">
+                <div id="feature-div"></div>
+            </div>
+            <div id="thumbnails-container"></div>
+        </div>
+
+        <!-- selectors -->
+        <div class="filterWrapper">
+            <div id="buttons-container">
+                <button class="filter-button" data-color="all">All</button>
+                <button class="filter-button" data-color="red">Red</button>
+                <button class="filter-button" data-color="green">Green</button>
+                <button class="filter-button" data-color="blue">Blue</button>
+            </div>
+            <div id="dropdown-container">
+                <select id="color-select">
+                    <option value="all">All</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
